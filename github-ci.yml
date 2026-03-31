@@ -1,14 +1,14 @@
 # TODO-STEP 1: Define the Workflow Name
-name: Python CI/CD Pipeline
+name: CI/CD Pipeline
 
 # TODO-STEP 2: Define the Trigger Events
 on:
   push:
     # Example of how to trigger on push to 'main' or 'develop' branches 
-    # branches: [ main, develop ]  
+    branches: [ main, develop ]  
   pull_request:
     # Example of how to trigger on push to 'main' or 'develop' branches 
-    # branches: [ main, develop ] 
+    branches: [ main, develop ] 
   workflow_dispatch:  # Allow manual job trigger of the workflow from GitHub Actions UI
 
 # Additional Practice Task: Conditional Job Execution
